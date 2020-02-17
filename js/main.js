@@ -1,1 +1,1 @@
-alert = (ciao!);
+alert("Hello! I am an alert box!!");
