@@ -4,8 +4,8 @@ document.getElementById('nome').innerHTML = nomeAnagrafico;
 var cognomeAnagrafico = prompt('Il tuo cognome?');
 document.getElementById('cognome').innerHTML = cognomeAnagrafico;
 
-var colorePreferito = prompt('Il tuo colore prererito?');
+var colorePreferito = prompt('Il tuo colore preferito?');
 document.getElementById('colore').innerHTML = colorePreferito;
 
-var annoCorrente = annoCorrente.getFullYear();
-document.getElementById('data').innerHTML = annoCorrente;
+var password = nomeAnagrafico + cognomeAnagrafico + colorePreferito + 20;
+document.getElementById('password').innerHTML = password;
