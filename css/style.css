@@ -45,3 +45,34 @@ body {
     height: 50px;
     border: 1px solid black;
 }
+
+#banner {
+    width: 120px;
+    height: 70px;
+    border: 2px solid red;
+    position: absolute;
+    left: 50%;
+    top: 72%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+#banner p {
+    text-align: center;
+    margin-top: 5px;
+    color: red;
+}
+
+#banner.visible {
+    visibility: visible;
+}
+
+#passw a {
+    text-decoration: none;
+    font-weight: bold;
+    color: pink
+}
+
+#passw a:active {
+    transform: scale(3);
+}

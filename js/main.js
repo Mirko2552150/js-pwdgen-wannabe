@@ -9,3 +9,5 @@ document.getElementById('colore').innerHTML = colorePreferito;
 
 var password = nomeAnagrafico + cognomeAnagrafico + colorePreferito + 20;
 document.getElementById('password').innerHTML = password;
+
+document.getElementById('banner').setAttribute('class','visible');
