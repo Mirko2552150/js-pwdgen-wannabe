@@ -11,7 +11,7 @@ var data = new Date();
 var annoC = data.getFullYear();
 document.getElementById('annoC').innerHTML = annoC;
 
-var password = nomeAnagrafico + cognomeAnagrafico + colorePreferito + annoC;
+var password = nomeAnagrafico + ";" + cognomeAnagrafico + ";" + colorePreferito + ";" + annoC;
 document.getElementById('password').innerHTML = password;
 
 document.getElementById('banner').setAttribute('class','visible');
